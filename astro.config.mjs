@@ -7,7 +7,8 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://colores-y-magia.github.io/",
+  base: "/fragrant-pond-a6dd",
   integrations: [mdx(), sitemap()],
   adapter: cloudflare({
     platformProxy: {
