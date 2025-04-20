@@ -8,6 +8,7 @@ import rehypeExternalLinks from 'rehype-external-links'
 // https://astro.build/config
 export default defineConfig({
   site: "https://colores-y-magia.github.io/fragrant-pond-a6dd/",
+  base: "/fragrant-pond-a6dd",
   integrations: [mdx(), svelte()],
   markdown: {
     shikiConfig: {
